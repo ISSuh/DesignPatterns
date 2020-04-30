@@ -22,15 +22,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Make build dir
-      run: mkdir build
-      
-    - name: cd build dir
-      run: cd build
-      
-    - name: Cmake
-      run: cmake ..
-      
-    - name: Make project
+    - name: Configure
+      run: mkdir build && cd build && cmake ..
+
+    - name: Build project
       run: make
 
