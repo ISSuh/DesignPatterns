@@ -5,9 +5,15 @@ PROJECT (DesignPatterns)
 # Set Compiler
 #-------------------------------------------------------------------------------
 SET ( CMAKE_CXX_STANDARD 11)
+ADD_COMPILE_OPTIONS ( -g -Wall )
 SET ( CMAKE_CXX_CPPCHECK cppcheck )
 SET ( CMAKE_CXX_CPPLINT cpplint)
-ADD_COMPILE_OPTIONS ( -g -Wall )
+
+#-------------------------------------------------------------------------------
+# Get Third Party Library
+#-------------------------------------------------------------------------------
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
 
 #-------------------------------------------------------------------------------
 # Set SubDirectory
