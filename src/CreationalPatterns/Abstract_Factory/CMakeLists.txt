@@ -1,6 +1,6 @@
 project(abstract_factory)
 
-message("Abstract Factory Example")
+message("Abstract Factory Pattern Example")
 
 #-------------------------------------------------------------------------------
 # Project files
