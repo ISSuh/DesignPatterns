@@ -4,7 +4,8 @@ PROJECT (DesignPatterns)
 #-------------------------------------------------------------------------------
 # Set Compiler
 #-------------------------------------------------------------------------------
-SET ( CMAKE_CXX_STANDARD 11)
+SET( CMAKE_CXX_STANDARD 11)
+SET( CMAKE_CXX_STANDARD_REQUIRED ON )
 ADD_COMPILE_OPTIONS ( -g -Wall )
 
 
@@ -12,7 +13,6 @@ ADD_COMPILE_OPTIONS ( -g -Wall )
 # Set SubDirectory
 #-------------------------------------------------------------------------------
 add_subdirectory(src)
-
 
 #-------------------------------------------------------------------------------
 # Set gTest
