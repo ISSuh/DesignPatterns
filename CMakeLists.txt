@@ -6,23 +6,13 @@ PROJECT (DesignPatterns)
 #-------------------------------------------------------------------------------
 SET ( CMAKE_CXX_STANDARD 11)
 ADD_COMPILE_OPTIONS ( -g -Wall )
-SET ( CMAKE_CXX_CPPCHECK cppcheck )
-SET ( CMAKE_CXX_CPPLINT cpplint)
+
 
 #-------------------------------------------------------------------------------
 # Set SubDirectory
 #-------------------------------------------------------------------------------
-SET (BUILD_DIR ${CMAKE_CURRENT_SOURCE_DIR}/build/bin )
+add_subdirectory(src)
 
-SET (SAMPLES
-    CreationalPatterns
-    StructuralPatterns
-    BehavioralPatterns
-)
-
-foreach(SAMPLE ${SAMPLES})
-    add_subdirectory(src/${SAMPLE})
-endforeach()
 
 #-------------------------------------------------------------------------------
 # Set gTest
