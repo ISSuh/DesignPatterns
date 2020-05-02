@@ -116,10 +116,12 @@ class PeopleDirector {
 };
 
 int main() {
+    std::cout << "Design Patterns - Builder Pattern" << std::endl;
+
     PeopleDirector director;
     auto programmerBuilder = std::unique_ptr<Builder>(new ProgrammerBuilder());
     auto salesManBuilder = std::unique_ptr<Builder>(new SalesManBuilder());
-    
+
     director.setBuilder(std::move(programmerBuilder));
     auto programmer = director.constructPeople("Suh", 30);
     programmer->printInfo();
