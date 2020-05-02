@@ -7,6 +7,8 @@ SET ( CREATIONAL_PATTERN_BUILD_DIR
 SET ( CREATIONAL_PATTERN_SAMPLES
     Abstract_Factory
     Builder
+    Factory_Method
+    Prototype
 )
 
 foreach(SAMPLES ${CREATIONAL_PATTERN_SAMPLES})
