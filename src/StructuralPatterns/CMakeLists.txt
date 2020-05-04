@@ -7,6 +7,11 @@ SET ( STRUCTURAL_PATTERN_BUILD_DIR
 SET (STRUCTURAL_PATTERN_SAMPLES
     Adapter
     Bridge
+    Composite
+    Decorator
+    Facade
+    Flyweight
+    Proxy
 )
 
 foreach(SAMPLES ${STRUCTURAL_PATTERN_SAMPLES})
