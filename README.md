@@ -13,5 +13,6 @@
 
 - ### [Structural Patterns](https://github.com/ISSuh/DesignPatterns/tree/master/src/StructuralPatterns)
   - #### [Adapter](https://github.com/ISSuh/DesignPatterns/tree/master/src/StructuralPatterns/Adapter)
+  - #### [Bridge](https://github.com/ISSuh/DesignPatterns/tree/master/src/StructuralPatterns/Bridge)
 
 - ### [Behavioral Patterns](https://github.com/ISSuh/DesignPatterns/tree/master/src/BehavioralPatterns)
