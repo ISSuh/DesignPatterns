@@ -12,5 +12,6 @@
   - #### [Singleton](https://github.com/ISSuh/DesignPatterns/tree/master/src/CreationalPatterns/Singleton)
 
 - ### [Structural Patterns](https://github.com/ISSuh/DesignPatterns/tree/master/src/StructuralPatterns)
+  - #### [Adapter](https://github.com/ISSuh/DesignPatterns/tree/master/src/StructuralPatterns/Adapter)
 
 - ### [Behavioral Patterns](https://github.com/ISSuh/DesignPatterns/tree/master/src/BehavioralPatterns)
