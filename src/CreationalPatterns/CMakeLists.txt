@@ -9,6 +9,7 @@ SET ( CREATIONAL_PATTERN_SAMPLES
     Builder
     Factory_Method
     Prototype
+    Singleton
 )
 
 foreach(SAMPLES ${CREATIONAL_PATTERN_SAMPLES})
