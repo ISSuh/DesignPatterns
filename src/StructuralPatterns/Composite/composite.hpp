@@ -10,7 +10,7 @@
 
 /**
  * @brief Component - Window
- * @details
+ * @details 집합관계에서 포함되는 인터페이스를 정의
  */
 class Window {
  public:
